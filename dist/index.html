@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do app</title>
+  <link rel="shortcut icon" href="vite.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/assets/main-OHievp0f.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-C_nXwOMP.css">
+</head>
+
+<body>
+  <main class="flex flex-column ">
+    <header class="flex flex-row justify-around align-center header1">
+      <a href="index.html" class="appName cursor-pointer">To-do-app</a>
+      <div class="btns ">
+        <button class="loginBtn">Log In</button>
+        <button class="signupBtn">Sign Up</button>
+      </div>
+    </header>
+    <!-- <hr> -->
+    <section class="addToDo flex flex-column gap30">
+      <nav class="flex flex-row justify-between align-center gap25">
+        <!-- <input type="text" name="taskName" id="taskName" placeholder="Enter a task" autocomplete="off"> -->
+         <textarea name="taskName" id="auto-resize-textarea" class="taskName" placeholder="Enter a task" autofocus ></textarea>
+        <button class="addTask cursor-pointer">Add Task</button>
+      </nav>
+      <section class="tasks flex flex-column gap15">
+        <!-- <article class="flex flex-row justify-between align-center gap15">
+          <div class="flex flex-row justify-between align-center width100">
+            <div class="flex flex-row align-center gap15">
+        
+              <i class="fa-regular fa-circle circle"></i>
+              <div class="flex flex-column gap5 justify-center inputText">
+                <p class="taskInput">Print Hello World</p>
+                <div class="flex flex-row gap5 dateTime">
+                  <small>date</small>
+                  <small>time</small>
+                </div>
+              </div>
+            </div>
+            <span class="flex flex-row gap10 justify-center align-center notifyIcon">
+   
+              <i class="fa-regular fa-bell"></i>
+              <i class="fa-regular fa-bookmark"></i>
+            </span>
+          </div>
+          <button>Delete</button>
+        </article> -->
+        <section class="flex flex-column gap10 justify-center dateTime1">
+          <span>
+            <label for="date">Select Date : </label>
+            <input type="date" name="" id="date">
+          </span>
+          <span>
+            <label for="time">Select Time : </label>
+            <input type="time" name="" id="time">
+          </span>
+          <button class="setBtn">Set</button>
+        </section>
+      </section>
+    </section>
+  </main>
+
+</body>
+
+</html>
